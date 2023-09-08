@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <title>TobiRodrigo Portfolio</title>
+</head>
+<body>
+  <nav id="nav-dsk">
+        <div class="logo">Tobias Rodrigo</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mi</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="nav-brg">
+        <div class="logo">Tobias Rodrigo</div>
+        <div class="brg-menu">
+            <div class="brg-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre Mi</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+            </div>
+        </div>
+    </nav>
+
+<section id="prf">
+    <div class="pic-cont">
+        <img src="./assets/tobiro.png" alt="Tobi Rodrigo profile picture">
+    </div>
+    <div class="txt-ion">
+        <p class="p1-ltr">Hola! soy</p>
+        <h1 class="title">Tobias Rodrigo</h1>
+        <p class="stext">Desarrollador Frontend</p>
+        <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/tobias-rodrigo.pdf')"
+            >
+              Descargar CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Info Contacto
+            </button>
+          </div>
+          <div id="redes-cont">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/tobi-rodrigo-webdeveloper/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/tobirodrigo'"
+            />
+          </div>
+        </div>     
+    </div>
+</section>
+
+<section id="about">
+  <p class="p1-ltr">Conocer más</p>
+  <h1 class="title">Sobre mi</h1>
+  <div class="section-container">
+    <div class="pic-cont">
+      <img src="./assets/tt.png" alt="foto de perfil" class="about-pic">
+    </div>
+    <div class="a-d-container">
+      <div class="about-containers">
+        <div class="detalles-cont">
+          <img src="./assets/experience.png" alt="Icono de experiencia" class="icon">
+          <h3>Experiencia</h3>
+          <p>Freelance <br>Desarrollador Frontend</p>
+        </div>
+        <div class="detalles-cont">
+          <img src="./assets/education.png" alt="Icono de educacion" class="icon">
+          <h3>Educacion</h3>
+          <p>Orientacion Ciencias Sociales</p>
+          <p>Carrera: CoderHouse</p>
+        </div>
+      </div>
+      <div class="text-container">
+      <p>Siendo un desarrollador Frontend jr me encuentro con las ganas de aprender y sumar experiencia tanto en lo laboral como en lo personal. Me encanta superar mis limites de aprendizaje y superarme todos los dias un poco mas. </p>
+      </div>
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Flechas" class="icon arrow"  onclick="location.href='./#experience'">
+</section>
+
+<section id="experience">
+  <p class="p-ltr">Explora Mi</p>
+  <h1 class="title">Experiencia</h1>
+  <div class="e-d-cont">
+    <div class="about-containers">
+      <div class="detalles-cont">
+        <h2 class="exp-st">Desarrollador Frontend</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" 
+            alt="icono experiencia"
+            class="icon">
+            <div>
+              <h3>HTML</h3>
+              <p>Avanzado</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>SASS</h3>
+              <p>Bueno</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>CSS</h3>
+              <p>Avanzado</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>JavaScript</h3>
+              <p>Bueno/cursando</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>SEO</h3>
+              <p>Bueno</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>Github</h3>
+              <p>Basico</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>Git</h3>
+              <p>Basico</p>
+            </div>
+          </article>
+          <article>
+            <img 
+            src="./assets/checkmark.png" 
+            alt="Icono experiencia"
+            class="icon">
+            <div>
+              <h3>React Js</h3>
+              <p>Intermedio</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+  src="./assets/arrow.png"
+  alt="Arrow icon"
+  class="icon arrow"
+  onclick="location.href='./#projects'"
+/>
+</section>
+
+<section id="projects">
+  <p class="p-ltr">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="e-d-cont">
+    <div class="about-containers">
+      <div class="detalles-cont color-container">
+        <div class="article-container">
+          <img
+            src="./assets/tdrb.png"
+            alt="Project 1"
+            class="project-img"
+          />
+        </div>
+        <h2 class="exp-st project-title">Proyecto 1</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/tobirodrigo/e5.git'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/tobirodrigo/e5.git'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="detalles-cont color-container">
+        <div class="article-container">
+          <img
+            src="./assets/aaaa.png"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="exp-st project-title">Proyecto 2</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="detalles-cont color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-3.png"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="exp-st project-title">Proyecto 3</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+<section id="contact">
+  <p class="p1-ltr">Ponerse en contacto
+  </p>
+  <h1 class="title">Contactame</h1>
+  <div class="contact-info-u-container">
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:examplemail@gmail.com">tobiasrodrigo2020@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/tobi-rodrigo-webdeveloper/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2023 Tobías Rodrigo. Todos los derechos reservados.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>

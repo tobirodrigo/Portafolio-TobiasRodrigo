@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px) {
+    #nav-dsk {
+        display: none;
+    }
+    #nav-brg {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 991px) {
+  .article-container {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+    #prf {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #nav-dsk {
+      display: none;
+    }
+    #nav-brg {
+      display: flex;
+    }
+    #experience,
+    .e-d-cont {
+      margin-top: 2rem;
+    }
+    #prf,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .pic-cont {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #prf {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+
+    .article-container {
+      display: grid;
+      width: 100%;
+    }
+
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-u-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .exp-st {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .stext {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
